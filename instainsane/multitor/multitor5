@@ -1,0 +1,2 @@
+SOCKSPort 9055
+DataDirectory /var/lib/tor5

@@ -1,0 +1,2 @@
+SOCKSPort 9052
+DataDirectory /var/lib/tor2
