@@ -1,10 +1,10 @@
 #!/bin/bash
 #Sysupdate
 apt-get update
-apt full-upgrade 
+apt full-upgrade -y
 #Python
-apt-get install python
-apt-get install tor
+apt-get install python -y
+apt-get install tor -y
 #gmail
 git clone https://github.com/Ha3MrX/Gemail-Hack.git
 #facebook
