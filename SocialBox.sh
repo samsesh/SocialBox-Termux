@@ -14,7 +14,7 @@ blue="\033[1;34m"
 nc="\e[0m"
 #ROOT PRIVILEGIES
 #if [[ $EUID -ne 0 ]]; then
-#       echo -e "$red You don't have Root privilegies, execute the script as root.$nc"
+       echo -e "$red by samsesh.$nc"
 #        exit 1
 #fi
 #Installation
@@ -30,11 +30,11 @@ echo "		.▄▄ ·        ▄▄· ▪   ▄▄▄· ▄▄▌      ▄▄▄▄
 echo "		▐█ ▀. ▪     ▐█ ▌▪██ ▐█ ▀█ ██•      ▐█ ▀█▪▪      █▌█▌▪"
 echo "		▄▀▀▀█▄ ▄█▀▄ ██ ▄▄▐█·▄█▀▀█ ██▪      ▐█▀▀█▄ ▄█▀▄  ·██· "
 echo "		▐█▄▪▐█▐█▌.▐▌▐███▌▐█▌▐█ ▪▐▌▐█▌▐▌    ██▄▪▐█▐█▌.▐▌▪▐█·█▌"
-echo -e "		 ▀▀▀▀  ▀█▄▀▪·▀▀▀ ▀▀▀ ▀  ▀ .▀▀▀     ·▀▀▀▀  ▀█▄▀▪•▀▀ ▀▀$nc $blue v1$nc"
-echo -e "	[+]              $red Coded By sam.sesh$nc         		   [+]"
-echo -e "	[+] 		 $red www.twitter.com/init__0$nc 		   [+]"
-echo -e "	[+] 		 $red Greetz To All Pentesters$nc          		   [+]"
-echo -e "	[+]$red Special Greetz To$nc :$green {thelinuxchoice , Ha3MrX, Tunisian Eagles, init__0}$nc [+]"
+echo -e "		 ▀▀▀▀  ▀█▄▀▪·▀▀▀ ▀▀▀ ▀  ▀ .▀▀▀     ·▀▀▀▀  ▀█▄▀▪•▀▀ ▀▀$nc $blue v1.beta$nc"
+#echo -e "	[+]              $red Coded By sam.sesh$nc         		   [+]"
+#echo -e "	[+] 		 $red www.twitter.com/init__0$nc 		   [+]"
+#echo -e "	[+] 		 $red Greetz To All Pentesters$nc          		   [+]"
+#echo -e "	[+]$red Special Greetz To$nc :$green {thelinuxchoice , Ha3MrX, Tunisian Eagles, init__0}$nc [+]"
 echo ""
 echo -e "$yellow Select From Menu : $nc"
 echo ""
