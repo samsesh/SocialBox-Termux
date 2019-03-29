@@ -1,4 +1,4 @@
-# SocialBox
+# SocialBox-Termux
 SocialBox is a Bruteforce Attack Framework [ Facebook , Gmail , Instagram ,Twitter ] , Coded By Belahsan Ouerghi Edit By init__0
 # Installation
 ```
@@ -19,7 +19,8 @@ chmod +x install-sb.sh
 * Kali linux
 * Termux on andriod (tor not connected , use ORBOT )
 # Contact
-* [Contact](https://www.twitter.com/init__0) - init__0
+* [Twitter](https://www.twitter.com/init__0) - init__0
+* [Instagram](https://www.instagram.com/init__0) - init__0
 # Authors :
 * facebook  : Imad
 * gmail     : Ha3MrX
