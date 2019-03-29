@@ -3,7 +3,7 @@ Multi-thread Twitter BruteForcer in Shell Script
 
 ## Author: github.com/thelinuxchoice
 ## IG: instagram.com/thelinuxchoice
-
+## Edit for Termux : github.com/samsesh
 Tweetshell is an Shell Script to perform multi-threaded brute force attack against Twitter, this script can bypass login limiting and it can test infinite number of passwords with a rate of +400 passwords/min using 20 threads.
 
 ## Legal disclaimer:
@@ -33,9 +33,5 @@ sudo ./tweetshell.sh
 
 ```
 chmod +x install.sh
-sudo ./install.sh
+./install.sh
 ```
-### Donate!
-Support the authors:
-
-<noscript><a href="https://liberapay.com/thelinuxchoice/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
