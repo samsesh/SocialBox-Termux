@@ -5,7 +5,7 @@ SocialBox is a Bruteforce Attack Framework [ Facebook , Gmail , Instagram ,Twitt
 apt-get update
 apt-get install git
 git clone https://github.com/samsesh/SocialBox-Termux.git 
-cd SocialBox
+cd SocialBox-Termux
 chmod +x SocialBox.sh
 chmod +x install-sb.sh
 ./install-sb.sh
@@ -17,7 +17,7 @@ chmod +x install-sb.sh
 * Backbox linux
 * Ubuntu 
 * Kali linux
-* Termux on andriod
+* Termux on andriod (tor not connected , use ORBOT )
 # Contact
 * [Contact](https://www.twitter.com/init__0) - init__0
 # Authors :
