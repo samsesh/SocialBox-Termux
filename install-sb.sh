@@ -15,7 +15,7 @@ else
 	cd facebook
 	wget raw.githubusercontent.com/Sup3r-Us3r/scripts/master/fb-brute.pl
 	cd ..
-#fi
+fi
 #Instagram
 #git clone https://github.com/thelinuxchoice/instainsane.git
 cd instainsane
