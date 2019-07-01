@@ -51,31 +51,31 @@ echo “installing....”
 apt install tor zsh wget git -y
 figlet wait 
 sleep 3
-sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-echo “type ‘zsh’ then press enter”
-chsh
+##sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+##echo “type ‘zsh’ then press enter”
+##chsh
 cd ~
-echo ‘figlet -f big WELCOME’ >> .zshrc
-echo ‘sleep 5’ >> .zshrc
-echo ‘figlet -f standard code by init__0’ >> .zshrc
-echo ‘sleep 4’ >> .zshrc
-echo ‘figlet -f digital wait to run’ >> .zshrc
-echo ‘sleep 5’ >> .zshrc
-echo ‘clear’ >> .zshrc
-echo ‘figlet -f standard Tor’ >> .zshrc
-echo ‘sleep 1’ >> .zshrc
-echo ‘clear’ >> .zshrc
-echo ‘figlet -f standard tOr’ >> .zshrc
-echo ‘sleep 1’ >> .zshrc
-echo ‘clear’ >> .zshrc
-echo ‘figlet -f standard toR’ >> .zshrc
-echo ‘sleep 1’ >> .zshrc
-echo ‘clear’ >> .zshrc
-echo ‘figlet -f big run TOR’ >> .zshrc
-echo ‘sleep 5’ >> .zshrc
-echo ‘tor --HTTPTunnelPort 8118’ >> .zshrc
-‎‏echo ‘tor’ >> .zshrc
+echo figlet -f big WELCOME >> .zshrc
+echo sleep 5 >> .zshrc
+echo figlet -f standard code by init__0 >> .zshrc
+echo sleep 4 >> .zshrc
+echo figlet -f digital wait to run >> .zshrc
+echo sleep 5 >> .zshrc
+echo clear >> .zshrc
+echo figlet -f standard Tor >> .zshrc
+echo sleep 1 >> .zshrc
+echo clear >> .zshrc
+echo figlet -f standard tOr >> .zshrc
+echo sleep 1 >> .zshrc
+echo clear >> .zshrc
+echo figlet -f standard toR >> .zshrc
+echo sleep 1 >> .zshrc
+echo clear >> .zshrc
+echo figlet -f big run TOR >> .zshrc
+echo sleep 5 >> .zshrc
+echo tor --HTTPTunnelPort 8118’ >> .zshrc
+‎‏echo tor >> .zshrc
 figlet -f big DONE
-echo “close termux and run again”
+echo “type zsh then close termux and run again”
 sleep 3
-exit
+chsh
