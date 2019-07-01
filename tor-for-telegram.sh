@@ -57,7 +57,8 @@ sleep 3
 cd ~
 echo figlet -f big WELCOME >> .zshrc
 echo sleep 5 >> .zshrc
-echo figlet -f standard code by init__0 >> .zshrc
+echo echo code by init__0 >> .zshrc
+echo echo set proxy for telegram 127.0.0.1:9050 / twitter 127.0.0.1:8118
 echo sleep 4 >> .zshrc
 echo figlet -f digital wait to run >> .zshrc
 echo sleep 5 >> .zshrc
@@ -71,9 +72,18 @@ echo clear >> .zshrc
 echo figlet -f standard toR >> .zshrc
 echo sleep 1 >> .zshrc
 echo clear >> .zshrc
+echo figlet -f standard Tor >> .zshrc
+echo sleep 1 >> .zshrc
+echo clear >> .zshrc
+echo figlet -f standard tOr >> .zshrc
+echo sleep 1 >> .zshrc
+echo clear >> .zshrc
+echo figlet -f standard toR >> .zshrc
+echo sleep 1 >> .zshrc
+echo clear >> .zshrc
 echo figlet -f big run TOR >> .zshrc
 echo sleep 5 >> .zshrc
-echo tor --HTTPTunnelPort 8118’ >> .zshrc
+echo tor --HTTPTunnelPort 8118 >> .zshrc
 ‎‏echo tor >> .zshrc
 figlet -f big DONE
 echo “type zsh then close termux and run again”
