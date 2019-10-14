@@ -34,8 +34,9 @@ echo -e "		 ▀▀▀▀  ▀█▄▀▪·▀▀▀ ▀▀▀ ▀  ▀ .▀▀�
 #echo -e "	[+]              $red Coded By sam.sesh$nc         		   [+]"
 #echo -e "	[+] 		 $red www.twitter.com/init__0$nc 		   [+]"
 #echo -e "	[+] 		 $red Greetz To All Pentesters$nc          		   [+]"
-#echo -e "	[+]$red Special Greetz To$nc :$green {thelinuxchoice , Ha3MrX, Tunisian Eagles, init__0}$nc [+]"
+#echo -e "	[+]$Codded by Jopraveen special credits To$nc :$green {thelinuxchoice , Ha3MrX, Tunisian Eagles, init__0}$nc [+]"
 echo ""
+figlet Jopraveen | lolcat
 echo -e "$yellow Select From Menu : $nc"
 echo ""
 echo -e "		$Cyan 1 : Brute Force Facebook Account$nc"
