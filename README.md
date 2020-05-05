@@ -17,7 +17,7 @@ chmod +x install-sb.sh
 * Backbox linux
 * Ubuntu 
 * Kali linux
-* Termux on andriod (tor not connected , use ORBOT )
+* Termux on andriod (tor not connected , use windscribe vpn )
 # Contact
 * [Twitter](https://www.twitter.com/init__0) - init__0
 * [Instagram](https://www.instagram.com/init__0) - init__0
