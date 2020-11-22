@@ -14,10 +14,9 @@ chmod +x install-sb.sh
 # Screenshots :
 ![Test Image 8](https://github.com/samsesh/SocialBox-Termux/blob/master/Screenshots/sb.png)
 # Tested On :
-* Backbox linux
-* Ubuntu 
-* Kali linux
-* Termux on andriod (tor not connected , use windscribe vpn )
+* Termux on andriod (tor connected if use vpn )
+# for any os :
+* socialbox(https://github.com/samsesh/SocialBox)
 # Contact
 * [Twitter](https://www.twitter.com/init__0) - init__0
 * [Instagram](https://www.instagram.com/init__0) - init__0
