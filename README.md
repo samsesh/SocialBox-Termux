@@ -16,7 +16,7 @@ chmod +x install-sb.sh
 # Tested On :
 * Termux on andriod (tor connected if use vpn )
 # for any os :
-* socialbox(https://github.com/samsesh/SocialBox)
+* [socialbox](https://github.com/samsesh/SocialBox)
 # Contact
 * [Twitter](https://www.twitter.com/init__0) - init__0
 * [Instagram](https://www.instagram.com/init__0) - init__0
@@ -25,5 +25,5 @@ chmod +x install-sb.sh
 * gmail     : Ha3MrX
 * instagram : thelinuxchoice
 * Twitter   : thelinuxchoice
-* SocialBox : Belahsan Ouerghi
+* SocialBox : inits__0 
 * SocialBox-Termux : init__0
