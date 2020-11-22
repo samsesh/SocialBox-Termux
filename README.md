@@ -25,5 +25,5 @@ chmod +x install-sb.sh
 * gmail     : Ha3MrX
 * instagram : thelinuxchoice
 * Twitter   : thelinuxchoice
-* SocialBox : inits__0 
+* SocialBox : init__0 
 * SocialBox-Termux : init__0
