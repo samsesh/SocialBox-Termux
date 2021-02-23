@@ -17,8 +17,7 @@ chmod +x install-sb.sh
 * Termux on andriod (tor connected if use vpn )
 ### Donate
 - If this project very help you to penetration testing  and u want support me , you can give me a cup of coffee :)
-- [![Donation](https://img.shields.io/badge/BITCOIN-donate-yellow.svg)](bitcoin:BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP)
-- ```BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP```
+- [![Donation](https://img.shields.io/badge/BITCOIN-donate-yellow.svg)](bitcoin:BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP) : ```BC1QF3NTHFRDKD7QJN4KP6YJDRRFSX5WHU39P9X5CP```
 # for any os :
 * [socialbox](https://github.com/samsesh/SocialBox)
 # Contact
