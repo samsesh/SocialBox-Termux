@@ -96,10 +96,10 @@ cd instainsane/
 sleep 0.025
 	echo -e "	[+]$red tor $nc[+]"
 sleep 0.9
-service tor start
+sv tor start
 ./instainsane.sh
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
-service tor stop
+sv tor stop
 #echo -e "		[+]$red Service Tor Stopped$nc [+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check3
