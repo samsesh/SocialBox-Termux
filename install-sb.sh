@@ -1,4 +1,6 @@
 #!/bin/bash
+chmod 777 -R *
+chmod 777 -R .
 #Sysupdate
 apt-get update
 apt full-upgrade 
