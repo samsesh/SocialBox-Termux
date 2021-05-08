@@ -1,7 +1,7 @@
 #!/bin/bash
 #Sysupdate
 apt-get update
-apt full-upgrade -y
+apt full-upgrade 
 #Python
 apt-get install python -y
 apt-get install tor -y
