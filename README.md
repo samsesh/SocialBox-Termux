@@ -23,12 +23,12 @@ chmod +x install-sb.sh
 # for any os :
 * [socialbox](https://github.com/samsesh/SocialBox)
 # Contact
-* [Twitter](https://www.twitter.com/init__0) - init__0
-* [Instagram](https://www.instagram.com/init__0) - init__0
+* [Twitter](https://www.twitter.com/_samsesh) - _samsesh
+* [Instagram](https://www.instagram.com/sam.sesh) - sam.sesh
 # Authors :
 * facebook  : Imad
 * gmail     : Ha3MrX
 * instagram : thelinuxchoice
 * Twitter   : thelinuxchoice
-* SocialBox : init__0 
-* SocialBox-Termux : init__0
+* SocialBox : samsesh
+* SocialBox-Termux : samsesh
