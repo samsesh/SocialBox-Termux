@@ -35,4 +35,4 @@ cd ..
 git clone https://github.com/samsesh/insta-bf.git
 cd insta-bf 
 chmod +x * -R
-bash ./andriod_setup.sh
+bash ./andriod_setup.sh	
