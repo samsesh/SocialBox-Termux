@@ -152,7 +152,7 @@ sleep 0.025
         echo -e "	[+]$red Service Tor Stated $nc[+]"
 sleep 0.9
 service tor start
-bash instabf.py
+python instabf.py
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 service tor stop
 echo -e "		[+]$red Service Tor Stopped$nc [+]"
