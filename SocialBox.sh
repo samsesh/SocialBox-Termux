@@ -42,7 +42,7 @@ echo -e "		$Cyan 1 : Brute Force Facebook Account$nc"
 echo -e "		$Cyan 2 : Brute Force Gmail Account$nc"
 echo -e "		$Cyan 3 : Brute Force Instagram Account 1$nc"
 echo -e "		$Cyan 4 : Brute Force Twitter Account$nc"
-echo -e "		$Cyan 3 : Brute Force Instagram Account 2$nc"
+echo -e "		$Cyan 5 : Brute Force Instagram Account 2$nc"
 echo -e "		$Cyan 99: Exit$nc"
 read -p "Choice >  " ch
 if [ $ch = 1 ]; then
