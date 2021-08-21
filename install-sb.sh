@@ -2,12 +2,19 @@
 chmod 777 -R *
 chmod 777 -R .
 #Sysupdate
-apt-get update
-apt full-upgrade 
+apt-get update -qq >> /dev/null
+#apt full-upgrade 
 #req
-apt install python tor perl -y
+apt install python tor perl figlet -y -qq >> /dev/null
+clear
+sleep 2
+figlet Installing ...
 #gmail
-git clone https://github.com/Ha3MrX/Gemail-Hack.git
+figlet gmail bf
+git clone https://github.com/Ha3MrX/Gemail-Hack.git >> /dev/null
+clear
+figlet Installing ...
+figlet facebook bf
 #facebook
 if [ -d facebook ]; then
         echo "Directory facebook exists.[✔]"
@@ -17,6 +24,9 @@ else
 	wget raw.githubusercontent.com/Sup3r-Us3r/scripts/master/fb-brute.pl
 	cd ..
 fi
+clear
+figlet Installing ...
+figlet instagram bf1
 #Instagram 1
 #git clone https://github.com/umeshshinde19/instainsane.git
 cd instainsane
@@ -24,6 +34,9 @@ chmod +x instainsane.sh
 chmod +x install.sh
 ./install.sh
 cd ..
+clear
+figlet Installing ...
+figlet twitter bf
 #Twitter
 #git clone https://github.com/imprithwishghosh/-tweetshell-.git
 cd tweetshell
@@ -31,8 +44,11 @@ chmod +x tweetshell.sh
 chmod +x install.sh
 ./install.sh
 cd ..
+clear
+figlet Installing ...
+figlet instagram bf 2
 # instagram 2
 git clone https://github.com/samsesh/insta-bf.git
 cd insta-bf 
-chmod +x * -R
+clear
 bash ./andriod_setup.sh	
