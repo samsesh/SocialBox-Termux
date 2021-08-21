@@ -12,15 +12,13 @@ Cafe="\033[0;33m"
 Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
-#ROOT PRIVILEGIES
-#if [[ $EUID -ne 0 ]]; then
+
        echo -e "$red by samsesh.$nc"
-#        exit 1
-#fi
+
 #Installation
 sleep 1
 echo -e "Checking Installation $nc"
-bash install-sb.sh
+bash install-sb.sh >> /dev/null
 echo -e "Checking Completed [$green✓$nc] $nc "
 sleep 1
 clear
