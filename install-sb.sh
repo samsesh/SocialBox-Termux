@@ -6,13 +6,14 @@ chmod 777 -R .
 apt-get update -qq >> /dev/null
 #apt full-upgrade 
 #req
-apt install python tor perl figlet -y -qq >> /dev/null
+apt install python tor perl figlet -y >> /dev/null
 clear
 sleep 2
 figlet Installing ...
 #gmail
 figlet gmail bf
 git clone https://github.com/Ha3MrX/Gemail-Hack.git >> /dev/null
+sleep 2
 clear
 figlet Installing ...
 figlet facebook bf
@@ -25,6 +26,7 @@ else
 	wget raw.githubusercontent.com/Sup3r-Us3r/scripts/master/fb-brute.pl
 	cd ..
 fi
+sleep 2
 clear
 figlet Installing ...
 figlet instagram bf1
@@ -35,6 +37,7 @@ chmod +x instainsane.sh
 chmod +x install.sh
 ./install.sh
 cd ..
+sleep 2
 clear
 figlet Installing ...
 figlet twitter bf
@@ -51,5 +54,6 @@ figlet instagram bf 2
 # instagram 2
 git clone https://github.com/samsesh/insta-bf.git
 cd insta-bf 
+bash ./andriod_setup.sh	>> /dev/null
 clear
-bash ./andriod_setup.sh	
+figlet done
