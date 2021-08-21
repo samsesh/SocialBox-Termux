@@ -1,4 +1,5 @@
 #!/bin/bash
+git pull
 chmod 777 -R *
 chmod 777 -R .
 #Sysupdate
