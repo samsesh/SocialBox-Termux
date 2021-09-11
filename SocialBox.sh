@@ -71,7 +71,7 @@ fi
 elif [ $ch = 2 ]; then
 echo -e "			$Cyan Gmail Brute Force$nc"
 cd Gemail-Hack
-python gemailhack.py
+python2 gemailhack.py
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check2
