@@ -6,7 +6,7 @@ chmod 777 -R .
 apt-get update -qq >> /dev/null
 #apt full-upgrade 
 #req
-apt install python tor perl figlet -y >> /dev/null
+apt install python tor perl figlet runit -y >> /dev/null
 clear
 sleep 2
 figlet Installing ...
