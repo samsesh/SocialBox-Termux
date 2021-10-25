@@ -46,7 +46,7 @@ read -p "Choice >  " ch
 if [ $ch = 1 ]; then
 echo -e "			$Cyan Facebook Brute Force$nc"
 echo -e "$green"
-read -p "Enter Facebook ID / Email / Username / Number: " 100002620611225
+read -p "Enter Facebook ID / Email / Username / Number: " id
 read -p "Enter wordlist path : " wordlist0611
 echo -e "$nc"
 cd facebook
