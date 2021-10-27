@@ -47,7 +47,7 @@ if [ $ch = 1 ]; then
 echo -e "			$Cyan Facebook Brute Force$nc"
 echo -e "$green"
 read -p "Enter Facebook ID / Email / Username / Number: " id
-read -p "Enter wordlist path : " wordlist0611
+read -p "Enter wordlist path : " wordlist
 echo -e "$nc"
 cd facebook
 perl fb-brute.pl $id $wordlist
