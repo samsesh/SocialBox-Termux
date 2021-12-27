@@ -10,7 +10,7 @@ apt install python2 python tor perl figlet runit openssl -y >> /dev/null
 clear
 sleep 2
 figlet Installing ...
-#gmail
+#kosint150@gmail.com
 figlet gmail bf
 git clone https://github.com/Ha3MrX/Gemail-Hack.git >> /dev/null
 sleep 2
