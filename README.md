@@ -32,6 +32,7 @@ chmod +x install-sb.sh
 * [Instagram](https://www.instagram.com/samses) - sam.sesh
 # Authors :
 * facebook  : Imad
+* facebook2 : @fikrado
 * gmail     : Ha3MrX
 * instagram : thelinuxchoice
 * Twitter   : thelinuxchoice

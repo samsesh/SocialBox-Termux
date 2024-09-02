@@ -57,3 +57,9 @@ cd insta-bf
 bash ./andriod_setup.sh	>> /dev/null
 clear
 figlet done
+cd ..
+
+# facebook2
+git clone https://github.com/fikrado/fikrado.py
+cd fikrado.py
+bash termux.sh >> /dev/null

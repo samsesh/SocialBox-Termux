@@ -41,6 +41,7 @@ echo -e "		$Cyan 2 : Brute Force Gmail Account$nc"
 echo -e "		$Cyan 3 : Brute Force Instagram Account 1$nc"
 echo -e "		$Cyan 4 : Brute Force Twitter Account$nc"
 echo -e "		$Cyan 5 : Brute Force Instagram Account 2 $nc"
+echo -e "		$Cyan 6 : Brute Force Facebook Account 2$nc"
 echo -e "		$Cyan 99: Exit$nc"
 read -p "Choice >  " ch
 if [ $ch = 1 ]; then
@@ -151,6 +152,33 @@ sleep 0.025
 sleep 0.9
 sv tor start
 python instabf.py
+echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
+sv tor stop
+echo -e "		[+]$red Service Tor Stopped$nc [+]"
+echo -e "$red"
+read -p "Wanna Back To Main Menu [ Y / n ] : " check5
+echo -e "$nc"
+if [ $check5 = "Y" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "y" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "Yes" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "yes" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "YES" ]; then
+cd .. && bash SocialBox.sh
+else
+exit 1
+fi
+elif [ $ch = 6 ]; then
+echo -e "			$Cyan facebook Brute Force 2$nc"
+cd fikrado.py
+sleep 0.025
+        echo -e "	[+]$red Service Tor Started $nc[+]"
+sleep 0.9
+sv tor start
+python2 fikrado.py
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 sv tor stop
 echo -e "		[+]$red Service Tor Stopped$nc [+]"
